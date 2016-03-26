@@ -1,0 +1,14 @@
+
+
+# Ignore the build and lib dirs
+build
+thirdparty/*
+
+# Ignore any executables
+bin/*
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore client files for now
+client
