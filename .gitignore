@@ -10,5 +10,6 @@ bin/*
 # Ignore Mac specific files
 .DS_Store
 
-# Ignore client files for now
-client
+# Ignore client unwanted files
+client/venv
+client/*.pyc
