@@ -19,3 +19,18 @@ Redis server built over grpc
 ```
   ./gredis_server
 ```
+
+**Client**
+
+```
+  cd client
+  virtualenv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+```
+
+
+
+
+
+
