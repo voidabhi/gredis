@@ -29,6 +29,11 @@ Redis server built over grpc
   pip install -r requirements.txt
 ```
 
+### Contributing
+
+- Please use the [issue tracker](https://github.com/voidabhi/gredis/issues) to report any bugs or file feature requests.
+
+
 ### License
 
 ```
