@@ -3,6 +3,12 @@
 
 Redis server built over grpc
 
+### Required Libraries
+
+- grpc
+- Hiredis
+- Protobuf
+
 ### Building
 
 ```
@@ -16,17 +22,19 @@ Redis server built over grpc
 
 **Server**
 
-```
+```bash
+   # redis server should be running
   ./gredis_server
 ```
 
 **Client**
 
-```
+```bash
   cd client
   virtualenv venv
   source venv/bin/activate
   pip install -r requirements.txt
+  python gredis_client.py
 ```
 
 ### Contributing
@@ -51,7 +59,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-
-
-

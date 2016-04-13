@@ -15,7 +15,7 @@ public:
                         const gredis::GetValueRequest* request,
                         gredis::GetValueReply* reply) override {
 
-		this->redis->get(request->key());
+		reply->set_value(this->redis->get(request->key()));
     return grpc::Status::OK;
   }
 

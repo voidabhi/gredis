@@ -49,8 +49,8 @@ link_libraries(grpc++_unsecure grpc gpr ${PROTOBUF_LIBRARY})
 # build source with generated protobuf files
 set(GREDIS_SOURCES
  ${GENERATED_PROTOBUF_FILES}
-	main.cc
+	gredis_server.cc
 )
 
-add_executable(gredis ${GREDIS_SOURCES})
-target_link_libraries(gredis ${GREDIS_LIB_DEPS})
+add_executable(gredis_server ${GREDIS_SOURCES})
+target_link_libraries(gredis_server ${GREDIS_LIB_DEPS})
